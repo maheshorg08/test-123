@@ -3,16 +3,16 @@ kind: Component
 metadata:
   name: Test2342
   description: This is a sample component generated from the inner-sourcing template.
-  proimary owner name: Mahesh123
+  proimary owner name: Mahesh
   proimary owner email: mahesh.gowripatnam@hcl.com
   secondaty owner name: Test
   secondary owner email: user1@dmmp.com
   annotations:
-    github.com/project-slug: Mahesh123/Test2342
+    github.com/project-slug: Mahesh/Test2342
 spec:
-  type: service
+  type: Service
   lifecycle: production
-  owner: Mahesh123
+  primary owner: Mahesh
   implementsApis:
     - my-api
   system: examples
