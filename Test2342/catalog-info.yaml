@@ -12,7 +12,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  primary owner: Mahesh123
+  owner: Mahesh123
   implementsApis:
     - my-api
   system: examples
