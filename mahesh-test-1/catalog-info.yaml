@@ -10,13 +10,13 @@ metadata:
   annotations:
     github.com/project-slug: Mahesh/mahesh-test-1
 spec:
-  type: Website
+  type: Service
   lifecycle: production
-  owner: Mahesh
+  primary owner: Mahesh
   implementsApis:
     - my-api
   system: examples
   repository:
     type: git
-    url: https://github.com/maheshorg08/test-123/blob/main/
+    url: https://github.com/maheshorg08/test-123
     path: /
